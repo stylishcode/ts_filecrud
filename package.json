@@ -1,0 +1,25 @@
+{
+  "name": "ts_file_crud",
+  "version": "1.0.0",
+  "description": "Crud application using file as databaser and typescript",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "crud",
+    "file",
+    "database"
+  ],
+  "author": "Matheus Enrique",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "@types/node": "^16.7.10",
+    "query-string": "^7.0.1"
+  }
+}

@@ -1,0 +1,12 @@
+# install typescript
+npm i typescript or npm i -g typescript for global install
+
+# start typescript project
+npx tsc --init (this will generate tsconfig.json file)
+
+# uncomment lines: "rootDir" and "outDir"
+
+# add in "outDir" -> "outDir": "./dist/"
+
+# start typescript compilation in watch mode
+npx tsc --watch (this will generate index.js in dist folder)
